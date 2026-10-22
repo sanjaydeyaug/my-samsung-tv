@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 943.37 943.37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="149.52" y1="-86.32" x2="793.85" y2="1029.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d20820"/>
+      <stop offset=".17" stop-color="#cc0722"/>
+      <stop offset=".39" stop-color="#bb072a"/>
+      <stop offset=".64" stop-color="#a00637"/>
+      <stop offset=".91" stop-color="#7b0549"/>
+      <stop offset="1" stop-color="#6d0550"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-1" width="943.37" height="943.37"/>
+    <path class="cls-2" d="M670.11,418.83c19.76,34.48,29.36,78.94,29.36,135.92v288.07l-5.97.02-6.71.02h-1.91s-123.56,0-123.56,0h-1.88s-6.76.03-6.76.03l-6.01.02v-277.72c0-28.78-6.65-50.65-19.75-65-13.09-14.34-31.76-21.6-55.49-21.6s-41.43,7.25-54.54,21.61c-13.42,14.35-20.22,36.22-20.22,65v277.6l-5.95.04-6.7.04h-1.94s-123.51,0-123.51,0h-1.88s-6.78.06-6.78.06l-6.03.04V100.41l6.9,1.06,7.76,1.19,2.16.33,123.6,18.99,1.59.24,5.71.88,5.08.78v227.93c11.88-4.78,23.77-8.44,29.49-10.2l2.25-.7c21.98-6.95,44.9-10.48,68.1-10.48,13.58,0,27.17,1.23,40.39,3.66,20.74,3.81,41.52,10.64,60.1,19.73,32.63,15.98,57.91,38.46,73.11,64.99Z"/>
+  </g>
+</svg>

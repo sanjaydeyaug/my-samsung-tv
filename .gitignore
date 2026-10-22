@@ -1,0 +1,13 @@
+.tv-connection.json
+__pycache__/
+.tools/
+*.wgt
+.buildResult/
+.DS_Store
+.env*
+*.p12
+*.pfx
+*.pem
+*.key
+node_modules/
+dashboard/weather-check/screenshots/

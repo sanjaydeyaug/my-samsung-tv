@@ -1,0 +1,2757 @@
+{
+  "checkedAt": "2026-10-22T17:18:24.020Z",
+  "live": {
+    "latitude": 43.646603,
+    "longitude": -79.38272,
+    "generationtime_ms": 0.5117654800415039,
+    "utc_offset_seconds": -14400,
+    "timezone": "America/Toronto",
+    "timezone_abbreviation": "GMT-4",
+    "elevation": 99,
+    "current_units": {
+      "time": "unixtime",
+      "interval": "seconds",
+      "temperature_2m": "°C",
+      "relative_humidity_2m": "%",
+      "apparent_temperature": "°C",
+      "is_day": "",
+      "weather_code": "wmo code",
+      "wind_speed_10m": "km/h"
+    },
+    "current": {
+      "time": 1792689300,
+      "interval": 900,
+      "temperature_2m": 18.1,
+      "relative_humidity_2m": 54,
+      "apparent_temperature": 16.9,
+      "is_day": 1,
+      "weather_code": 0,
+      "wind_speed_10m": 6.6
+    },
+    "daily_units": {
+      "time": "unixtime",
+      "temperature_2m_max": "°C",
+      "temperature_2m_min": "°C",
+      "sunrise": "unixtime",
+      "sunset": "unixtime"
+    },
+    "daily": {
+      "time": [
+        1792641600
+      ],
+      "temperature_2m_max": [
+        18.1
+      ],
+      "temperature_2m_min": [
+        3.9
+      ],
+      "sunrise": [
+        1792669236
+      ],
+      "sunset": [
+        1792707760
+      ]
+    }
+  },
+  "liveScene": {
+    "sky": "sun",
+    "intensity": "none",
+    "night": "false",
+    "phase": "day",
+    "hail": "false",
+    "ice": "false",
+    "windy": "false"
+  },
+  "errors": [],
+  "scenarios": 112,
+  "results": [
+    {
+      "code": 0,
+      "phase": "sunrise",
+      "filename": "wmo-00-sunrise.png",
+      "dataset": {
+        "sky": "sun",
+        "intensity": "none",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": true,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 0,
+      "phase": "day",
+      "filename": "wmo-00-day.png",
+      "dataset": {
+        "sky": "sun",
+        "intensity": "none",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": true,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 0,
+      "phase": "sunset",
+      "filename": "wmo-00-sunset.png",
+      "dataset": {
+        "sky": "night",
+        "intensity": "none",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": true
+      }
+    },
+    {
+      "code": 0,
+      "phase": "night",
+      "filename": "wmo-00-night.png",
+      "dataset": {
+        "sky": "night",
+        "intensity": "none",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": true
+      }
+    },
+    {
+      "code": 1,
+      "phase": "sunrise",
+      "filename": "wmo-01-sunrise.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": true,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 1,
+      "phase": "day",
+      "filename": "wmo-01-day.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": true,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 1,
+      "phase": "sunset",
+      "filename": "wmo-01-sunset.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": true
+      }
+    },
+    {
+      "code": 1,
+      "phase": "night",
+      "filename": "wmo-01-night.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": true
+      }
+    },
+    {
+      "code": 2,
+      "phase": "sunrise",
+      "filename": "wmo-02-sunrise.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": true,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 2,
+      "phase": "day",
+      "filename": "wmo-02-day.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": true,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 2,
+      "phase": "sunset",
+      "filename": "wmo-02-sunset.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": true
+      }
+    },
+    {
+      "code": 2,
+      "phase": "night",
+      "filename": "wmo-02-night.png",
+      "dataset": {
+        "sky": "partly",
+        "intensity": "none",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": true
+      }
+    },
+    {
+      "code": 3,
+      "phase": "sunrise",
+      "filename": "wmo-03-sunrise.png",
+      "dataset": {
+        "sky": "cloud",
+        "intensity": "none",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 3,
+      "phase": "day",
+      "filename": "wmo-03-day.png",
+      "dataset": {
+        "sky": "cloud",
+        "intensity": "none",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 3,
+      "phase": "sunset",
+      "filename": "wmo-03-sunset.png",
+      "dataset": {
+        "sky": "cloud",
+        "intensity": "none",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 3,
+      "phase": "night",
+      "filename": "wmo-03-night.png",
+      "dataset": {
+        "sky": "cloud",
+        "intensity": "none",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 45,
+      "phase": "sunrise",
+      "filename": "wmo-45-sunrise.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 45,
+      "phase": "day",
+      "filename": "wmo-45-day.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 45,
+      "phase": "sunset",
+      "filename": "wmo-45-sunset.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 45,
+      "phase": "night",
+      "filename": "wmo-45-night.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 48,
+      "phase": "sunrise",
+      "filename": "wmo-48-sunrise.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 48,
+      "phase": "day",
+      "filename": "wmo-48-day.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 48,
+      "phase": "sunset",
+      "filename": "wmo-48-sunset.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 48,
+      "phase": "night",
+      "filename": "wmo-48-night.png",
+      "dataset": {
+        "sky": "fog",
+        "intensity": "none",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": false,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 51,
+      "phase": "sunrise",
+      "filename": "wmo-51-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 51,
+      "phase": "day",
+      "filename": "wmo-51-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 51,
+      "phase": "sunset",
+      "filename": "wmo-51-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 51,
+      "phase": "night",
+      "filename": "wmo-51-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 53,
+      "phase": "sunrise",
+      "filename": "wmo-53-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 53,
+      "phase": "day",
+      "filename": "wmo-53-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 53,
+      "phase": "sunset",
+      "filename": "wmo-53-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 53,
+      "phase": "night",
+      "filename": "wmo-53-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 55,
+      "phase": "sunrise",
+      "filename": "wmo-55-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 55,
+      "phase": "day",
+      "filename": "wmo-55-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 55,
+      "phase": "sunset",
+      "filename": "wmo-55-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 55,
+      "phase": "night",
+      "filename": "wmo-55-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 56,
+      "phase": "sunrise",
+      "filename": "wmo-56-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 56,
+      "phase": "day",
+      "filename": "wmo-56-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 56,
+      "phase": "sunset",
+      "filename": "wmo-56-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 56,
+      "phase": "night",
+      "filename": "wmo-56-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "drizzle",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 57,
+      "phase": "sunrise",
+      "filename": "wmo-57-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 57,
+      "phase": "day",
+      "filename": "wmo-57-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 57,
+      "phase": "sunset",
+      "filename": "wmo-57-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 57,
+      "phase": "night",
+      "filename": "wmo-57-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 61,
+      "phase": "sunrise",
+      "filename": "wmo-61-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 61,
+      "phase": "day",
+      "filename": "wmo-61-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 61,
+      "phase": "sunset",
+      "filename": "wmo-61-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 61,
+      "phase": "night",
+      "filename": "wmo-61-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 63,
+      "phase": "sunrise",
+      "filename": "wmo-63-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 63,
+      "phase": "day",
+      "filename": "wmo-63-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 63,
+      "phase": "sunset",
+      "filename": "wmo-63-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 63,
+      "phase": "night",
+      "filename": "wmo-63-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 65,
+      "phase": "sunrise",
+      "filename": "wmo-65-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 65,
+      "phase": "day",
+      "filename": "wmo-65-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 65,
+      "phase": "sunset",
+      "filename": "wmo-65-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 65,
+      "phase": "night",
+      "filename": "wmo-65-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 66,
+      "phase": "sunrise",
+      "filename": "wmo-66-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 66,
+      "phase": "day",
+      "filename": "wmo-66-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 66,
+      "phase": "sunset",
+      "filename": "wmo-66-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 66,
+      "phase": "night",
+      "filename": "wmo-66-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 67,
+      "phase": "sunrise",
+      "filename": "wmo-67-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 67,
+      "phase": "day",
+      "filename": "wmo-67-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 67,
+      "phase": "sunset",
+      "filename": "wmo-67-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 67,
+      "phase": "night",
+      "filename": "wmo-67-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "true",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 71,
+      "phase": "sunrise",
+      "filename": "wmo-71-sunrise.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 71,
+      "phase": "day",
+      "filename": "wmo-71-day.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 71,
+      "phase": "sunset",
+      "filename": "wmo-71-sunset.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 71,
+      "phase": "night",
+      "filename": "wmo-71-night.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 73,
+      "phase": "sunrise",
+      "filename": "wmo-73-sunrise.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "moderate",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 73,
+      "phase": "day",
+      "filename": "wmo-73-day.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "moderate",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 73,
+      "phase": "sunset",
+      "filename": "wmo-73-sunset.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "moderate",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 73,
+      "phase": "night",
+      "filename": "wmo-73-night.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "moderate",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 75,
+      "phase": "sunrise",
+      "filename": "wmo-75-sunrise.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 75,
+      "phase": "day",
+      "filename": "wmo-75-day.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 75,
+      "phase": "sunset",
+      "filename": "wmo-75-sunset.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 75,
+      "phase": "night",
+      "filename": "wmo-75-night.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 77,
+      "phase": "sunrise",
+      "filename": "wmo-77-sunrise.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 77,
+      "phase": "day",
+      "filename": "wmo-77-day.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 77,
+      "phase": "sunset",
+      "filename": "wmo-77-sunset.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 77,
+      "phase": "night",
+      "filename": "wmo-77-night.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 80,
+      "phase": "sunrise",
+      "filename": "wmo-80-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 80,
+      "phase": "day",
+      "filename": "wmo-80-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 80,
+      "phase": "sunset",
+      "filename": "wmo-80-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 80,
+      "phase": "night",
+      "filename": "wmo-80-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 81,
+      "phase": "sunrise",
+      "filename": "wmo-81-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 81,
+      "phase": "day",
+      "filename": "wmo-81-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 81,
+      "phase": "sunset",
+      "filename": "wmo-81-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 81,
+      "phase": "night",
+      "filename": "wmo-81-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "moderate",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 82,
+      "phase": "sunrise",
+      "filename": "wmo-82-sunrise.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 82,
+      "phase": "day",
+      "filename": "wmo-82-day.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 82,
+      "phase": "sunset",
+      "filename": "wmo-82-sunset.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 82,
+      "phase": "night",
+      "filename": "wmo-82-night.png",
+      "dataset": {
+        "sky": "rain",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 85,
+      "phase": "sunrise",
+      "filename": "wmo-85-sunrise.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 85,
+      "phase": "day",
+      "filename": "wmo-85-day.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 85,
+      "phase": "sunset",
+      "filename": "wmo-85-sunset.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 85,
+      "phase": "night",
+      "filename": "wmo-85-night.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "light",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 86,
+      "phase": "sunrise",
+      "filename": "wmo-86-sunrise.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 86,
+      "phase": "day",
+      "filename": "wmo-86-day.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 86,
+      "phase": "sunset",
+      "filename": "wmo-86-sunset.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 86,
+      "phase": "night",
+      "filename": "wmo-86-night.png",
+      "dataset": {
+        "sky": "snow",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": false,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 95,
+      "phase": "sunrise",
+      "filename": "wmo-95-sunrise.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": true,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 95,
+      "phase": "day",
+      "filename": "wmo-95-day.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": true,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 95,
+      "phase": "sunset",
+      "filename": "wmo-95-sunset.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": true,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 95,
+      "phase": "night",
+      "filename": "wmo-95-night.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "false",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": false,
+        "lightning": true,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 96,
+      "phase": "sunrise",
+      "filename": "wmo-96-sunrise.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 96,
+      "phase": "day",
+      "filename": "wmo-96-day.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 96,
+      "phase": "sunset",
+      "filename": "wmo-96-sunset.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 96,
+      "phase": "night",
+      "filename": "wmo-96-night.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 99,
+      "phase": "sunrise",
+      "filename": "wmo-99-sunrise.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "sunrise",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 99,
+      "phase": "day",
+      "filename": "wmo-99-day.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "false",
+        "phase": "day",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": false,
+        "moon": false
+      }
+    },
+    {
+      "code": 99,
+      "phase": "sunset",
+      "filename": "wmo-99-sunset.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "sunset",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": true,
+        "moon": false
+      }
+    },
+    {
+      "code": 99,
+      "phase": "night",
+      "filename": "wmo-99-night.png",
+      "dataset": {
+        "sky": "storm",
+        "intensity": "heavy",
+        "night": "true",
+        "phase": "night",
+        "hail": "true",
+        "ice": "false",
+        "windy": "false"
+      },
+      "right": 1920,
+      "top": 0,
+      "visible": {
+        "rays": false,
+        "drops": true,
+        "hail": true,
+        "lightning": true,
+        "solar": false,
+        "moon": false
+      }
+    }
+  ]
+}
