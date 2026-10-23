@@ -392,3 +392,8 @@ Restores straight idle Settings row dividers, including automatic appearance. Ro
 ### 1.9.34 — preference switches
 
 Replaces text On/Off values for 24-hour clock, compact tiles and reminder with accessible switches matching automatic appearance. Uses aria-checked and retains saved preferences. All 61 tests pass; browser toggle and focus visually verified. Obsidian Home, Apps and Settings screenshots refreshed.
+
+
+### 1.9.35 — Settings sidebar focus contrast
+
+Selected category background had higher specificity than the general bright focus background, leaving dark focused text on a dark selected surface. Explicit category focus rules now keep a bright surface and dark readable labels together, including the selected category. All 61 tests passed. Signed `.tools/Still-1935.wgt`; TV upload failed when the SDB connection dropped, and reconnect to 10.0.0.4:26101 failed. After restarting the local SDB server, reconnected successfully, directly installed the signed update (100%, install completed), and launched StillHome1.Dashboard successfully. Physical TV contrast confirmation remains pending.

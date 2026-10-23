@@ -33,8 +33,11 @@ The installed app runs directly on the TV. Its UI assets are bundled in the sign
 flowchart TD
     Remote[TV remote] --> Navigation[Remote navigation and input handling]
     Navigation --> UI[Home · Apps · Search · Settings]
-    UI --> App[app.js: views, catalog, favorites]
-    App <--> Storage[(TV localStorage)]
+    UI --> App[app.js: application composition and views]
+    App --> Catalog[catalog.js: discovery policy]
+    App --> Clock[clock.js: clock lifecycle]
+    App --> Preferences[preferences.js: persistence]
+    Preferences <--> Storage[(TV localStorage)]
     App --> Platform[platform.js: TV adapter]
     Platform --> Tizen[Tizen APIs: apps, audio, HDMI]
     Platform --> Preview[Sample catalog in browser preview]
@@ -45,11 +48,13 @@ flowchart TD
     Assets[Bundled styles, logos and portrait] --> UI
 ```
 
-- **Application:** `app.js` owns views, preferences, app catalog filtering, search, and editing. Hidden views render lazily; unchanged discovery results preserve focus and shelf position.
+- **Application:** `app.js` composes views, search, and editing; `catalog.js` owns discovery rules, `preferences.js` owns saved settings, and `clock.js` owns clock updates. Hidden views render lazily; unchanged discovery results preserve focus and shelf position.
 - **Platform:** `platform.js` wraps public Tizen application, audio, system information, and TV window APIs. It supplies sample app entries when running in a desktop browser.
-- **Navigation:** `remote.js` normalizes Samsung keys, handles native text editing, and reveals focused items. `navigation.js` animates the top navigation selection; `focus.js` contains a separate focus-frame implementation and is currently not loaded by the entry page.
+- **Navigation:** `remote.js` normalizes Samsung keys, handles native text editing, and reveals focused items. `spatial-focus.js` selects directional focus targets. `navigation.js` animates the top navigation selection; `focus.js` contains a separate focus-frame implementation and is currently not loaded by the entry page.
 - **Presentation:** `style.css`, `logos.js`, and `layout.js` provide themes, app artwork, focus treatments, and viewport sizing.
 - **Weather:** `weather.js` handles location, forecasts, cached data, and weather scenes; `appearance.js` selects manual or automatic themes.
+
+See [module boundaries and extension guidance](docs/architecture.md) for the architecture and public interfaces.
 
 ## Run a browser preview
 
@@ -69,7 +74,7 @@ Requires Node.js with the built-in test runner. No npm install is needed for the
 node --test dashboard/tests/*.test.cjs
 ```
 
-The current suite contains 61 tests covering app discovery, edit mode, remote/IME input, scrolling, audio, HDMI, themes, weather, artwork, and rendering behavior. Optional browser weather checks in `dashboard/tools/check-weather.cjs` additionally require Playwright and Chrome.
+The current suite contains 66 tests covering app discovery, edit mode, remote/IME input, scrolling, audio, HDMI, themes, weather, artwork, and rendering behavior. Optional browser weather checks in `dashboard/tools/check-weather.cjs` additionally require Playwright and Chrome.
 
 ## Install on a Samsung TV
 

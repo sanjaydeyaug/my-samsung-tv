@@ -7,10 +7,12 @@ test('startup builds only Home; hidden shelves render once when visited and inva
 });
 test('identical discovery keeps current DOM and focus; changed app artwork refreshes it',()=>{
  let raw=[{id:'one',name:'One',iconPath:'one.png'}],renders=0,lists=0;
- const c=include({loadGeneration:0,catalogKey:null,apps:[],prefs:{favoriteIds:['one'],addedRequestedApps:[],hiddenIds:[]},bridge:{list:ok=>{lists++;ok(raw);}},normalize:r=>r,byId:()=>null,save(){},renderAll:()=>renders++,$:()=>({}),toast(){}},['load']);
+ const c=include({loadGeneration:0,catalogKey:null,apps:[],prefs:{favoriteIds:['one'],addedRequestedApps:[],hiddenIds:[]},bridge:{currentAppId:()=>'StillHome1.Dashboard',list:ok=>{lists++;ok(raw);}},window:{StillCatalog:{normalize:r=>r}},byId:()=>null,save(){},renderAll:()=>renders++,$:()=>({}),toast(){}},['load']);
  c.load();c.load();assert.equal(lists,2);assert.equal(renders,1);raw=[{...raw[0],iconPath:'updated.png'}];c.load();assert.equal(renders,2);
 });
 test('clock makes no DOM writes within the same minute, but applies format changes immediately',()=>{
- let writes=0;const nodes={};const c=include({Date,prefs:{},lastClockKey:null,$:id=>nodes[id]||(nodes[id]={set textContent(v){writes++;this.value=v;},get textContent(){return this.value;},style:{}}),text:()=>{writes++;}},['tick']);
- c.tick();const initial=writes;assert.ok(initial>0);c.tick();assert.equal(writes,initial);c.prefs.hour24=true;c.tick();assert.ok(writes>initial);c.lastClockKey=null;c.tick();assert.ok(writes>initial*2);
+ let writes=0;const nodes={},prefs={};
+ const context={window:{},Date};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../tizen/clock.js'),'utf8'),context);
+ const clock=context.window.StillClock.create({element:id=>nodes[id]||(nodes[id]={set textContent(v){writes++;this.value=v;},get textContent(){return this.value;},style:{}}),text:()=>{writes++;}});
+ clock.tick(false);const initial=writes;assert.ok(initial>0);clock.tick(false);assert.equal(writes,initial);clock.tick(true);assert.ok(writes>initial);
 });

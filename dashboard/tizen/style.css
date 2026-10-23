@@ -681,3 +681,8 @@ body[data-theme=black] dialog::backdrop{background:rgba(0,0,0,.8)}
 
 #settings-view .preference-switch:focus .ios-switch{background:#8b8b94}
 #settings-view .preference-switch[aria-checked=true]:focus .ios-switch{background:#248a3d}
+
+/* Category selection must not override the bright remote-focus surface. */
+#settings-view .settings-category:focus,
+#settings-view .settings-category[aria-current=true]:focus{background:#f4f4f7;color:#161619;border-color:transparent}
+#settings-view .settings-category:focus>span{color:inherit}
