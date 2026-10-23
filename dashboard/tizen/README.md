@@ -387,3 +387,8 @@ Applies the automatic appearance row’s 14px corner radius to other Settings ro
 ### 1.9.33 — round only the highlighted row
 
 Restores straight idle Settings row dividers, including automatic appearance. Rounded 14px corners apply only during focus. Signed Still-1933.wgt, directly installed successfully (100%, install completed), and relaunched on the TV.
+
+
+### 1.9.34 — preference switches
+
+Replaces text On/Off values for 24-hour clock, compact tiles and reminder with accessible switches matching automatic appearance. Uses aria-checked and retains saved preferences. All 61 tests pass; browser toggle and focus visually verified. Obsidian Home, Apps and Settings screenshots refreshed.

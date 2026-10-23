@@ -448,10 +448,10 @@ body:not([data-theme=light]) .search-box:focus-within{
 /* A familiar switch with one remote focus target and a sliding white thumb. */
 .auto-appearance>span:first-child{color:inherit;font-size:inherit;text-align:left}
 .setting-description{display:block;margin-top:7px;font-size:12px;color:var(--muted);line-height:1.5;font-weight:400}
-.auto-appearance .ios-switch{position:relative;display:block;flex:0 0 52px;width:52px;height:30px;border-radius:18px;background:rgba(128,136,139,.38);box-shadow:inset 0 1px 2px #00000015}
+.auto-appearance .ios-switch,.preference-switch .ios-switch{position:relative;display:block;flex:0 0 52px;width:52px;height:30px;border-radius:18px;background:rgba(128,136,139,.38);box-shadow:inset 0 1px 2px #00000015}
 .ios-switch>span{display:block;position:absolute;left:3px;top:3px;width:24px;height:24px;border-radius:50%;background:#fff;box-shadow:0 2px 4px #00000025;transition:transform 160ms ease}
-.auto-appearance[aria-checked=true] .ios-switch{background:#34c759}
-.auto-appearance[aria-checked=true] .ios-switch>span{transform:translateX(22px)}
+.auto-appearance[aria-checked=true] .ios-switch,.preference-switch[aria-checked=true] .ios-switch{background:#34c759}
+.auto-appearance[aria-checked=true] .ios-switch>span,.preference-switch[aria-checked=true] .ios-switch>span{transform:translateX(22px)}
 @media(min-width:1600px){.setting-description{font-size:14px}}
 @media(prefers-reduced-motion:reduce){.ios-switch>span{transition:none}}
 
@@ -678,3 +678,6 @@ body[data-theme=black] dialog::backdrop{background:rgba(0,0,0,.8)}
 #settings-view .setting-row{border-radius:0}
 #settings-view button:focus{border-radius:14px}
 #settings-view .round:focus{border-radius:50%}
+
+#settings-view .preference-switch:focus .ios-switch{background:#8b8b94}
+#settings-view .preference-switch[aria-checked=true]:focus .ios-switch{background:#248a3d}

@@ -2,15 +2,17 @@
 
 A personal, remote-friendly home screen for Samsung Tizen TVs. Still brings favorite apps, local weather, a clock, and TV controls into a calm interface built with plain HTML, CSS, and JavaScript.
 
-**Current version: 1.9.33** · Installed and launched on a Samsung QN65S85FAFXZC · Tizen 6.0+ required by the manifest
+**Current version: 1.9.34** · Installed and launched on a Samsung QN65S85FAFXZC · Tizen 6.0+ required by the manifest
 
 ## Screenshots
 
-Browser previews of the current application at 1920 × 1080. App inventory is sample data; weather services are disabled for these captures. These are interface previews, not photographs of the TV.
+Browser previews in Obsidian mode at 1920 × 1080. App inventory is sample data; the Home capture shows live Toronto weather. These are interface previews, not photographs of the TV.
 
-![Still Home with personal welcome, clock, and favorite apps](docs/screenshots/home.png)
+![Still Home with personal welcome, clock, and favorite apps](docs/screenshots/home.jpg)
 
-![Still Apps library](docs/screenshots/apps.png)
+![Still Apps library](docs/screenshots/apps.jpg)
+
+![Still Settings with preference switches in Obsidian mode](docs/screenshots/settings.jpg)
 
 ## Features
 
