@@ -56,7 +56,7 @@ flowchart TD
 Requires Python 3. Run from the repository root:
 
 ```sh
-python3 -m http.server 8766 --bind 127.0.0.1 --directory dashboard/tizen
+python3 scripts/start.py preview
 ```
 
 Open [localhost:8766](http://localhost:8766). Use arrow keys to navigate and Enter to select. TV app launch, HDMI, and audio controls require the installed TV app.
@@ -81,7 +81,48 @@ The current suite contains 61 tests covering app discovery, edit mode, remote/IM
 
 This repository excludes the SDK, signed packages, signing certificates, and pairing credentials. Existing-device updates used Samsung's direct `vd_appinstall` path; the SDK's `tz install` previously uninstalled/reinstalled the app and reset its local data. See the [device notes and release history](dashboard/tizen/README.md) for the project's tested setup and limitations.
 
-Still is an installed application. Experimental native startup configuration used on the development TV is separate from installing this widget and is not included as an automated setup here.
+## Use Still as your startup app
+
+Install the signed widget first using the steps above. Python 3 and Samsung's Tizen tools are needed for the launch script; no Python packages are required.
+
+### 1. Launch Still with the script
+
+Turn the TV on, connect the computer and TV to the same network, and enable Developer Mode with your computer's current IP address. From the repository root, run:
+
+```sh
+python3 scripts/start.py tv --host 10.0.0.4
+```
+
+Replace `10.0.0.4` with your TV's IP address (available under its network settings). The script connects over SDB and launches the installed `StillHome1` package. It finds `sdb` and `tz` on PATH, then checks this project's `.tools/tizen-studio/` installation. For a different SDK location:
+
+```sh
+python3 scripts/start.py tv --host 192.168.1.50 \
+  --sdb /absolute/path/tizen-studio/tools/sdb \
+  --tz /absolute/path/tizen-studio/tools/tizen-core/tz
+```
+
+This command launches Still once. It does not install the widget, wake the TV, or configure power-on behavior. Run `python3 scripts/start.py --help` for commands, or append `--help` to `tv` or `preview` for options. The script works from other directories when invoked by its absolute path.
+
+### 2. Enable the TV's startup setting
+
+On TVs that offer it:
+
+1. Open **Settings → All Settings → General & Privacy → Start Screen Options**. Some newer models put this under **Advanced Features**; older ones use **General → Smart Features**.
+2. Enable **Autorun Last App** and disable **Start with Smart Hub Home / Autorun Smart Hub** if it overrides your selection.
+3. Open Still again, using the script or its app icon. Leave Still on screen, turn the TV off with the remote, then turn it on again.
+4. Confirm that Still appears. Repeat after using another app: return to Still before switching off if you want it to be the last-used app.
+
+Samsung documents these settings in its [Start Screen Options guide](https://www.samsung.com/au/support/tv-audio-video/use-autorun-start-screen-options-on-your-samsung-tv/). Availability and app eligibility vary by model and firmware. Autorun Last App does not permanently assign Still as the system launcher; automatic startup for this developer-installed widget needs verification on your TV. If the option is absent or Still does not resume, launch it manually with the script or app icon. Once running on the TV, Still does not need the computer to remain on.
+
+### Existing experimental startup setup
+
+The development TV also has a separate, model-specific native Home/startup configuration, described in the [device notes](dashboard/tizen/README.md#native-startup-configuration). Its saved original settings and recovery utility are outside this repository. That procedure is not a portable setup script, and real power-off/on confirmation is still pending. Preserve that recovery folder when using the existing development setup. To undo that setup on the original development machine:
+
+```sh
+python3 /Users/namakibiswas/Documents/ChatGPT/still-tv-recovery/run.py restore
+```
+
+For the standard TV-menu setup above, turn off Autorun Last App and re-enable Smart Hub Home to return to Samsung's usual startup screen.
 
 ## Repository layout
 
