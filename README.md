@@ -2,7 +2,7 @@
 
 A personal, remote-friendly home screen for Samsung Tizen TVs. Still brings favorite apps, local weather, a clock, and TV controls into a calm interface built with plain HTML, CSS, and JavaScript.
 
-**Current version: 1.9.19** · Installed and launched on a Samsung QN65S85FAFXZC · Tizen 6.0+ required by the manifest
+**Current version: 1.9.33** · Installed and launched on a Samsung QN65S85FAFXZC · Tizen 6.0+ required by the manifest
 
 ## Screenshots
 
@@ -67,7 +67,7 @@ Requires Node.js with the built-in test runner. No npm install is needed for the
 node --test dashboard/tests/*.test.cjs
 ```
 
-The current suite contains 53 tests covering app discovery, edit mode, remote/IME input, scrolling, audio, HDMI, themes, weather, artwork, and rendering behavior. Optional browser weather checks in `dashboard/tools/check-weather.cjs` additionally require Playwright and Chrome.
+The current suite contains 61 tests covering app discovery, edit mode, remote/IME input, scrolling, audio, HDMI, themes, weather, artwork, and rendering behavior. Optional browser weather checks in `dashboard/tools/check-weather.cjs` additionally require Playwright and Chrome.
 
 ## Install on a Samsung TV
 

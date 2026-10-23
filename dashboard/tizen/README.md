@@ -317,3 +317,73 @@ Replaced the boxed Clear label with an integrated × control, accessible Clear s
 ### 1.9.19 — slower shelf scrolling
 
 Horizontal remote reveal now uses a 420ms ease-out animation in both directions, cancels pending motion when selection changes, and respects reduced motion. All 53 regression tests passed, including animation completion and direction reversal. Signed `.tools/Still-1919.wgt`, directly installed successfully (100%, install completed), and relaunched on October 22, 2026 (PID 29921). Physical TV animation feel remains for user confirmation.
+
+
+### 1.9.20 — split-view Settings
+
+Settings now uses an Apple TV-inspired one-third category sidebar and two-thirds detail pane, with Appearance, Sound & TV, and About Still. Adds larger typography, quiet surfaces, bright raised focus, category selection on remote focus, and a preserved Sound shortcut. All 55 regression tests passed. Signed `.tools/Still-1920.wgt` and directly updated the TV via vd_appinstall (100%, install completed) on October 22, 2026. Physical TV appearance confirmation remains pending.
+
+
+### 1.9.21 — lunar phase
+
+The nighttime Home moon now renders the illuminated limb and terminator from bundled SunCalc 1.9.0 calculations, refreshed with the minute weather-scene update. Waxing and waning light opposite sides; southern weather locations rotate the shape 180 degrees. Phase works offline and remains behind cloud effects. This decorative moon does not model moonrise/set or exact viewing-angle tilt. All 58 tests passed, including known new/full dates, terminator geometry and hemisphere orientation. Signed `.tools/Still-1921.wgt`, directly installed successfully (100%, install completed) and launched on October 22, 2026. Physical TV appearance confirmation pending.
+
+
+### 1.9.22 — one moon stage per day
+
+User-requested decorative 28-day cycle replaces astronomical illumination. Each TV-local calendar day has one of 28 stages; geometry changes once on the first scene refresh after midnight, or on resume. Repeated same-day refreshes make no geometry writes. Calendar arithmetic handles daylight-saving changes, and restarting retains the same date-derived stage. Cycle uses April 8, 2024 as its new-moon anchor; this intentionally differs from the natural roughly 29.5-day lunar period. Removed unused SunCalc dependency. All 59 tests pass. Signed `.tools/Still-1922.wgt`, directly installed (100%, install completed), and launched October 22, 2026.
+
+
+### 1.9.23 — actual lunar cycle, once daily
+
+Restores SunCalc astronomical lunar phase and illumination in place of the artificial 28-day loop. Samples local noon for each TV-local calendar date so the shape stays fixed all day, changes on the first scene refresh after midnight or resume, and survives restarts consistently. Hemisphere orientation retained. All 59 tests pass, including known new/full dates, no 28-day repeat, no same-day geometry writes and daylight-saving transitions. Signed `.tools/Still-1923.wgt`, directly installed successfully (100%, install completed) and launched October 22, 2026.
+
+
+### 1.9.24 — realistic lunar surface and shading
+
+Projects bundled NASA SVS LROC color-map imagery onto a small 192px canvas sphere. Daily astronomical phase supplies sunlight direction; continuous surface-normal shading softens the curved terminator, with faint dark-side detail and an antialiased limb. Existing once-per-local-day update, hemisphere flip, cloud layering and SVG fallback retained. No per-frame rendering or runtime texture downloads. Attribution in images/SOURCES.md. All 60 regression tests passed; headless Chrome verified texture pixels, phase shading and no page errors, with preview at `.tools/moon-realistic-1924.png`. Signed `.tools/Still-1924.wgt`, directly installed successfully (100%, install completed) and launched October 22, 2026. Exact observer tilt, libration and crater relief are not modeled; physical TV appearance confirmation pending.
+
+
+### 1.9.25 — softly illustrated moonlight
+
+Adds a warm ivory/cool blue halo around the textured moon, with a slightly warmer, brighter surface finish to complement the illustrated portrait. Halo strength follows daily illumination and shifts toward the lit side; it disappears at new moon and has no pulsing animation. Actual lunar calculation, daily updates and shading retained. All 60 tests passed, and browser texture render checked without page errors. Signed `.tools/Still-1925.wgt`, directly installed successfully (100%, install completed), and launched October 22, 2026. Physical TV glow confirmation pending.
+
+
+### 1.9.26 — watercolor lunar illustration
+
+Replaces photographic surface rendering with a detailed AI-generated watercolor/ink interpretation of the NASA lunar map, using the home portrait as a style reference. Recognizable crater rings, ray systems and dark maria remain as illustrated features; exact scientific terrain fidelity is not claimed. Actual phase shading, once-daily updates and halo retained. Asset saved locally as images/moon-map-illustrated.png; original map preserved. All 60 tests pass and browser texture rendering verified without page errors. Signed `.tools/Still-1926.wgt`, directly installed successfully (100%, completed), and launched October 22, 2026.
+
+
+### 1.9.27 — minimalist handmade lunar surface
+
+Uses a simpler AI-generated acrylic/ink lunar map adapted from the user’s paper-cover illustration prompt: broad dark maria, sparse crater marks, four restrained main color families, organic brush edges and subtle paper texture. Replaces dense crater detail while retaining daily actual-phase shading and the soft halo. Original and previous illustrated maps preserved. All 60 tests passed and browser rendered texture pixels without page errors. Signed `.tools/Still-1927.wgt`, directly installed successfully (100%, install completed), and launched October 22, 2026.
+
+
+### 1.9.28 — lighter painted moon patches
+
+Lifts darker lunar pigment colors before applying phase lighting, softening the illustrated maria without brightening the astronomical shadow. Five lunar regression tests and browser texture check passed. Signed `.tools/Still-1928.wgt`, directly installed successfully (100%, install completed), and launched October 22, 2026.
+
+
+### 1.9.29 — pale reference-style moon
+
+Matches the user’s reference with near-white lunar highlands, subtle light-gray illustrated maria, and a softer gray phase shadow. Maps albedo to a restrained 208–255 grayscale range before phase lighting; raises artistic shadow ambient to 55% to remove the black hemisphere. Phase geometry still follows daily astronomical calculation, while brightness is intentionally illustrative. Five lunar tests and headless browser render passed (visible pixel brightness 115–255). Signed `.tools/Still-1929.wgt`, directly installed successfully (100%, install completed), and launched October 22, 2026. Refresh local preview to load changed assets.
+
+
+### 1.9.30 — Obsidian OLED appearance
+
+Replaces Forest with Obsidian: pure black background, near-black panels, neutral accents and no full-screen tint. Existing Forest preferences resolve to Obsidian, including automatic night appearance. Charcoal and other themes retain their styles. All 61 regression tests passed. Signed `.tools/Still-1930.wgt`, directly updated the TV via vd_appinstall (100%, install completed), and relaunched successfully (PID 28315) on October 22, 2026. Physical TV appearance confirmation pending.
+
+
+### 1.9.31 — automatic appearance focus
+
+Corrects inherited label color on the bright focus surface, rounds the automatic appearance row, and improves switch and schedule contrast. Visually verified focused Obsidian settings in localhost. Signed Still-1931.wgt and directly installed successfully (100%, install completed).
+
+
+### 1.9.32 — matching rounded highlights
+
+Applies the automatic appearance row’s 14px corner radius to other Settings rows and focused buttons. Volume circles retain their round shape. Signed Still-1932.wgt, directly installed successfully at 100%, and relaunched on the TV.
+
+
+### 1.9.33 — round only the highlighted row
+
+Restores straight idle Settings row dividers, including automatic appearance. Rounded 14px corners apply only during focus. Signed Still-1933.wgt, directly installed successfully (100%, install completed), and relaunched on the TV.
