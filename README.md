@@ -148,3 +148,12 @@ The earlier server in `dashboard/server.py` serves `dashboard/dist/`, not the cu
 ## Artwork and customization
 
 The welcome names and portrait are personalized in `dashboard/tizen/index.html` and `dashboard/tizen/images/home-portrait.png`. App artwork provenance is documented in [SOURCES.md](dashboard/tizen/icons/official/SOURCES.md). Third-party names and logos belong to their respective owners.
+
+## License
+
+Original source code and documentation are licensed under the [MIT License](LICENSE), copyright © 2026 Namaki Biswas. The following materials are excluded from that MIT grant:
+
+- **Third-party code:** SunCalc retains its [BSD 2-Clause license](dashboard/tizen/vendor/SunCalc-LICENSE). Preserve its license and copyright notices when redistributing it.
+- **Third-party artwork and branding:** App icons, logos, and trademarks remain subject to their owners' rights and applicable terms. See the [artwork sources](dashboard/tizen/icons/official/SOURCES.md). Inclusion in this repository does not grant additional rights to use or redistribute them or imply endorsement.
+- **Third-party image assets:** The NASA lunar map retains its original usage terms and credits; see the [image sources](dashboard/tizen/images/SOURCES.md).
+- **Personal images:** The personalized `dashboard/tizen/images/home-portrait.png` and its depiction in screenshots are not licensed for reuse. Replace them with your own images when adapting Still.
